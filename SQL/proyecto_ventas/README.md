@@ -61,7 +61,7 @@ El proyecto utiliza dos tablas principales.
 
 ## 📊 Resultados
 
-## Pregunta 1 1. Gasto total por cliente
+## Pregunta 1 Gasto total por cliente
 
 | Cliente	| Total gastado |
 |---------|---------------|    
