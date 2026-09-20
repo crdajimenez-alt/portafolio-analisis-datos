@@ -8,13 +8,13 @@ El objetivo es analizar información de clientes y ventas para obtener informaci
 ## 🎯 Objetivos
 El proyecto busca responder preguntas como:
 
-* 1. [¿Cuánto ha gastado cada cliente?](#Cuánto-ha-gastado-cada-cliente)
+* [¿Cuánto ha gastado cada cliente?](#Cuánto-ha-gastado-cada-cliente)
 * [¿Qué productos generan más ingresos?](#Qué-productos-generan-más-ingresos) 
 * [¿Qué clientes no han realizado compras?](#Qué-clientes-no-han-realizado-compras) 
 * [¿Qué clientes gastan por encima del promedio?](#Qué-clientes-gastan-por-encima-del-promedio) 
 * [¿Cuál es el ranking de clientes según su gasto?](#Cuál-es-el-ranking-de-clientes-según-su-gasto) 
 * [¿Cómo cambia cada venta respecto a la anterior?](#Cómo-cambia-cada-venta-respecto-a-la-anterior) 
-* 7. [¿Qué porcentaje aumenta o disminuye cada venta?](#Qué-porcentaje-aumenta-o-disminuye-cada-venta) 
+* [¿Qué porcentaje aumenta o disminuye cada venta?](#Qué-porcentaje-aumenta-o-disminuye-cada-venta) 
 
 
 ## 🗂️ Datos utilizados
@@ -61,7 +61,7 @@ El proyecto utiliza dos tablas principales.
 
 ## 📊 Resultados
 
-### 1 ¿Cuánto ha gastado cada cliente?
+### ¿Cuánto ha gastado cada cliente?
 
 | Cliente	| Total gastado |
 |---------|---------------|    
@@ -73,7 +73,7 @@ El proyecto utiliza dos tablas principales.
 
 Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 
-### 2. ¿Qué productos generan más ingresos?
+### ¿Qué productos generan más ingresos?
 
 Producto |	Ingresos
 ---------|------------
