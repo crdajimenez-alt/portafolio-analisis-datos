@@ -114,3 +114,43 @@ SELECT
     total_venta - venta_anterior AS cambio
 FROM analisis_ventas
 ORDER BY id_venta;
+
+-- ==========================================
+-- 7. Clasificación del cambio en las ventas
+-- ==========================================
+
+WITH analisis_ventas AS (
+    SELECT
+        id_venta,
+        producto,
+        cantidad * precio AS total_venta,
+        LAG(cantidad * precio) OVER (
+            ORDER BY id_venta
+        ) AS venta_anterior
+    FROM ventas
+),
+
+cambios AS (
+    SELECT
+        id_venta,
+        producto,
+        total_venta,
+        venta_anterior,
+        total_venta - venta_anterior AS cambio
+    FROM analisis_ventas
+)
+
+SELECT
+    id_venta,
+    producto,
+    total_venta,
+    venta_anterior,
+    cambio,
+    CASE
+        WHEN venta_anterior IS NULL THEN 'Sin comparación'
+        WHEN cambio > 0 THEN 'Aumento'
+        WHEN cambio < 0 THEN 'Disminución'
+        ELSE 'Igual'
+    END AS clasificacion
+FROM cambios
+ORDER BY id_venta;
