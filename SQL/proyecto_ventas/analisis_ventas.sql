@@ -65,3 +65,28 @@ WHERE total_gastado > (
     FROM gastos_clientes
 )
 ORDER BY total_gastado DESC;
+
+-- ==========================================
+-- 5. Ranking de clientes por gasto total
+-- ==========================================
+
+WITH gastos_clientes AS (
+    SELECT
+        c.id_cliente,
+        c.nombre,
+        COALESCE(SUM(v.cantidad * v.precio), 0) AS total_gastado
+    FROM clientes AS c
+    LEFT JOIN ventas AS v
+        ON c.id_cliente = v.id_cliente
+    GROUP BY c.id_cliente, c.nombre
+)
+
+SELECT
+    id_cliente,
+    nombre,
+    total_gastado,
+    RANK() OVER (
+        ORDER BY total_gastado DESC
+    ) AS ranking
+FROM gastos_clientes
+ORDER BY ranking;
