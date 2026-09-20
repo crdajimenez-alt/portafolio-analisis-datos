@@ -8,14 +8,14 @@ El objetivo es analizar información de clientes y ventas para obtener informaci
 ## 🎯 Objetivos
 El proyecto busca responder preguntas como:
 
-[Ir a la Pregunta 1](#pregunta-1) - ¿Cuánto ha gastado cada cliente?
+[¿Cuánto ha gastado cada cliente?](#Cuánto-ha-gastado-cada-cliente)
+[¿Qué productos generan más ingresos?](#Qué-productos-generan-más-ingresos) 
+[¿Qué clientes no han realizado compras?](#Qué-clientes-no-han-realizado-compras) 
+[¿Qué clientes gastan por encima del promedio?](#Qué-clientes-gastan-por-encima-del-promedio) 
+[¿Cuál es el ranking de clientes según su gasto?](#Cuál-es-el-ranking-de-clientes-según-su-gasto) 
+[¿Cómo cambia cada venta respecto a la anterior?](#Cómo-cambia-cada-venta-respecto-a-la-anterior) 
+[¿Qué porcentaje aumenta o disminuye cada venta?](#Qué-porcentaje-aumenta-o-disminuye-cada-venta) 
 
-- ¿Qué productos generan más ingresos?
-- ¿Qué clientes no han realizado compras?
-- ¿Qué clientes gastan por encima del promedio?
-- ¿Cuál es el ranking de clientes según su gasto?
-- ¿Cómo cambia cada venta respecto a la anterior?
-- ¿Qué porcentaje aumenta o disminuye cada venta?
 
 ## 🗂️ Datos utilizados
 El proyecto utiliza dos tablas principales.
@@ -61,7 +61,7 @@ El proyecto utiliza dos tablas principales.
 
 ## 📊 Resultados
 
-## Pregunta 1 - Gasto total por cliente
+## ¿Cuánto ha gastado cada cliente?
 
 | Cliente	| Total gastado |
 |---------|---------------|    
@@ -180,25 +180,3 @@ Próximamente incorporaré proyectos utilizando:
 - Pandas
 - Visualización de datos
 - Power BI
-
-
-
-# ❓ Preguntas Frecuentes (FAQ)
-
-Haz clic en cualquiera de las siguientes preguntas para saltar directamente a la respuesta:
-
-* [¿Cómo puedo cambiar el idioma de la aplicación?](#cómo-puedo-cambiar-el-idioma-de-la-aplicación)
-* [¿Dónde se guardan los archivos de configuración?](#dónde-se-guardan-los-archivos-de-configuración)
-* [Tengo un error al compilar, ¿qué hago?](#tengo-un-error-al-compilar-qué-hago)
-
----
-
-## ¿Cómo puedo cambiar el idioma de la aplicación?
-Para cambiar el idioma, ve al menú de **Ajustes > Preferencias > Idioma** y selecciona tu opción preferida.
-
-## ¿Dónde se guardan los archivos de configuración?
-Todos los archivos se almacenan de forma local en la carpeta `/config` en la raíz del proyecto.
-
-## Tengo un error al compilar, ¿qué hago?
-> [!TIP]
-> Asegúrate de haber ejecutado `npm install` antes de compilar para instalar todas las dependencias necesarias.
