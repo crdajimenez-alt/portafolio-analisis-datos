@@ -180,3 +180,25 @@ Próximamente incorporaré proyectos utilizando:
 - Pandas
 - Visualización de datos
 - Power BI
+
+
+
+# ❓ Preguntas Frecuentes (FAQ)
+
+Haz clic en cualquiera de las siguientes preguntas para saltar directamente a la respuesta:
+
+* [¿Cómo puedo cambiar el idioma de la aplicación?](#cómo-puedo-cambiar-el-idioma-de-la-aplicación)
+* [¿Dónde se guardan los archivos de configuración?](#dónde-se-guardan-los-archivos-de-configuración)
+* [Tengo un error al compilar, ¿qué hago?](#tengo-un-error-al-compilar-qué-hago)
+
+---
+
+## ¿Cómo puedo cambiar el idioma de la aplicación?
+Para cambiar el idioma, ve al menú de **Ajustes > Preferencias > Idioma** y selecciona tu opción preferida.
+
+## ¿Dónde se guardan los archivos de configuración?
+Todos los archivos se almacenan de forma local en la carpeta `/config` en la raíz del proyecto.
+
+## Tengo un error al compilar, ¿qué hago?
+> [!TIP]
+> Asegúrate de haber ejecutado `npm install` antes de compilar para instalar todas las dependencias necesarias.
