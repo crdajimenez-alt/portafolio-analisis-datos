@@ -63,8 +63,6 @@ El proyecto utiliza dos tablas principales.
 
 ### ¿Cuánto ha gastado cada cliente?
 
-[
-
 | Cliente	| Total gastado |
 |---------|---------------|
 | Luis	  | 4,500         |  
@@ -73,14 +71,9 @@ El proyecto utiliza dos tablas principales.
 | María	  | 0             |
 | Sofía	  | 0             |
 
-]
-
-
 Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 
 ### ¿Qué productos generan más ingresos?
-
-[
 
 Producto |	Ingresos
 ---------|-----------
@@ -88,8 +81,6 @@ Laptop	 | 6,000
 Monitor	 | 1,500
 Teclado	 | 200
 Mouse	   | 200
-
-]
 
 Laptop registra 6,000 en ingresos, mientras que Monitor registra 1,500 y Teclado y Mouse 200 cada uno.
 
