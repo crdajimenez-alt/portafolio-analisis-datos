@@ -108,7 +108,6 @@ Funciones de ventana
 | Carlos	| 400           |
 | María	  | 0             |
 | Sofía	  | 0             |
-----------|----------------
 
 Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 
