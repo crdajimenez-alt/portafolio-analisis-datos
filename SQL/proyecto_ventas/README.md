@@ -20,72 +20,43 @@ El proyecto busca responder preguntas como:
 El proyecto utiliza dos tablas principales.
 
 ### Clientes
+- id_cliente
+- nombre
+- edad
+- ciudad
+- salario
 
-id_cliente
+### Ventas
+- id_venta
+- id_producto
+- id_cliente
+- producto
+- cantidad
+- precio
 
-nombre
+## 🛠️ Tecnologías utilizadas
+- PostgreSQL
+- SQL
+- GitHub
 
-edad
+## 📚 Técnicas SQL utilizadas
 
-ciudad
-
-salario
-
-Ventas
-
-id_venta
-
-id_producto
-
-id_cliente
-
-producto
-
-cantidad
-
-precio
-
-🛠️ Tecnologías utilizadas
-
-PostgreSQL
-
-SQL
-
-GitHub
-
-📚 Técnicas SQL utilizadas
-
-SELECT
-
-WHERE
-
-ORDER BY
-
-GROUP BY
-
-HAVING
-
-JOIN
-
-LEFT JOIN
-
-COALESCE
-
-CASE
-
-Subconsultas
-
-CTE (WITH)
-
-SUM()
-
-AVG()
-
-RANK()
-
-LAG()
-
-Funciones de ventana
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- JOIN
+- LEFT JOIN
+- COALESCE
+- CASE
+- Subconsultas
+- CTE (WITH)
+- SUM()
+- AVG()
+- RANK()
+- LAG()
+- Funciones de ventana
 
 ## 📊 Resultados
 
