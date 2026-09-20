@@ -1,6 +1,5 @@
-#📊 Análisis de Ventas con PostgreSQL
-
-##📌 Descripción
+# 📊 Análisis de Ventas con PostgreSQL
+## 📌 Descripción
 
 Proyecto de análisis de datos desarrollado utilizando PostgreSQL y SQL.
 
