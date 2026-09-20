@@ -100,7 +100,7 @@ Funciones de ventana
 
 1. Gasto total por cliente
 
-|---------|---------------|
+
 | Cliente	| Total gastado |
 |---------|---------------|
 | Luis	  | 4,500         |
@@ -112,7 +112,7 @@ Funciones de ventana
 | María	  | 0             |
 |---------|---------------|
 |Sofía	  | 0             |
-|---------|---------------|
+
 
 Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 
