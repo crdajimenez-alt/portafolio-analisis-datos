@@ -6,22 +6,17 @@ Proyecto de análisis de datos desarrollado utilizando PostgreSQL y SQL.
 El objetivo es analizar información de clientes y ventas para obtener información sobre el comportamiento de compra, los ingresos generados y la evolución de las ventas.
 
 ## 🎯 Objetivos
-
 El proyecto busca responder preguntas como:
 
--¿Cuánto ha gastado cada cliente?
+- ¿Cuánto ha gastado cada cliente?
+- ¿Qué productos generan más ingresos?
+- ¿Qué clientes no han realizado compras?
+- ¿Qué clientes gastan por encima del promedio?
+- ¿Cuál es el ranking de clientes según su gasto?
 
--¿Qué productos generan más ingresos?
+- ¿Cómo cambia cada venta respecto a la anterior?
 
--¿Qué clientes no han realizado compras?
-
-¿Qué clientes gastan por encima del promedio?
-
-¿Cuál es el ranking de clientes según su gasto?
-
-¿Cómo cambia cada venta respecto a la anterior?
-
-¿Qué porcentaje aumenta o disminuye cada venta?
+- ¿Qué porcentaje aumenta o disminuye cada venta?
 
 ## 🗂️ Datos utilizados
 
