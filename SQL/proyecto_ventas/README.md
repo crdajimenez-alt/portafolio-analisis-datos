@@ -102,8 +102,8 @@ Funciones de ventana
 
 
 | Cliente	| Total gastado |
-|         |               |
-| Luis	  | 4,500         |
+|---------|---------------|    
+ Luis	      4,500         
 | Ana	    | 3,000         |
 | Carlos	| 400           |
 | María	  | 0             |
