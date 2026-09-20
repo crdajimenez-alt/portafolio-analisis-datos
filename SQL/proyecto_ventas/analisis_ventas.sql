@@ -25,3 +25,17 @@ SELECT
 FROM ventas
 GROUP BY producto
 ORDER BY ingresos_totales DESC;
+
+-- ==========================================
+-- 3. Clientes que nunca han realizado compras
+-- ==========================================
+
+SELECT
+    c.id_cliente,
+    c.nombre,
+    c.ciudad
+FROM clientes AS c
+LEFT JOIN ventas AS v
+    ON c.id_cliente = v.id_cliente
+WHERE v.id_cliente IS NULL
+ORDER BY c.nombre;
