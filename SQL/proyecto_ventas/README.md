@@ -29,40 +29,75 @@ El proyecto busca responder preguntas como:
 El proyecto utiliza dos tablas principales.
 
 Clientes
+
 id_cliente
+
 nombre
+
 edad
+
 ciudad
+
 salario
+
 Ventas
+
 id_venta
+
 id_producto
+
 id_cliente
+
 producto
+
 cantidad
+
 precio
+
 🛠️ Tecnologías utilizadas
+
 PostgreSQL
+
 SQL
+
 GitHub
+
 📚 Técnicas SQL utilizadas
+
 SELECT
+
 WHERE
+
 ORDER BY
+
 GROUP BY
+
 HAVING
+
 JOIN
+
 LEFT JOIN
+
 COALESCE
+
 CASE
+
 Subconsultas
+
 CTE (WITH)
+
 SUM()
+
 AVG()
+
 RANK()
+
 LAG()
+
 Funciones de ventana
+
 📊 Resultados
+
 1. Gasto total por cliente
 Cliente	Total gastado
 Luis	4,500
@@ -143,15 +178,25 @@ Este proyecto me permitió aplicar conceptos de SQL desde consultas básicas has
 Entre los principales aprendizajes se encuentran:
 
 Uso de JOIN y LEFT JOIN.
+
 Agregación y agrupación de datos.
+
 Uso de CTE para estructurar consultas.
+
 Subconsultas.
+
 Clasificación de información mediante CASE.
+
 Ranking mediante funciones de ventana.
+
 Comparación de registros mediante LAG().
+
 Cálculo de variaciones porcentuales.
+
 📁 Archivos
+
 analisis_ventas.sql — contiene las consultas SQL utilizadas para realizar el análisis.
+
 🚀 Próximos proyectos
 
 Este proyecto forma parte de mi proceso de aprendizaje en análisis de datos.
@@ -159,7 +204,11 @@ Este proyecto forma parte de mi proceso de aprendizaje en análisis de datos.
 Próximamente incorporaré proyectos utilizando:
 
 SQL y PostgreSQL
+
 Python
+
 Pandas
+
 Visualización de datos
+
 Power BI
