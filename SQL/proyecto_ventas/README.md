@@ -102,7 +102,9 @@ Funciones de ventana
 
 
 | Cliente	| Total gastado |
+
 | :--- | :---: | ---: |
+
 | Luis	  | 4,500         |
 
 | Ana	    | 3,000         |
