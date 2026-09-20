@@ -13,16 +13,13 @@ El proyecto busca responder preguntas como:
 - ¿Qué clientes no han realizado compras?
 - ¿Qué clientes gastan por encima del promedio?
 - ¿Cuál es el ranking de clientes según su gasto?
-
 - ¿Cómo cambia cada venta respecto a la anterior?
-
 - ¿Qué porcentaje aumenta o disminuye cada venta?
 
 ## 🗂️ Datos utilizados
-
 El proyecto utiliza dos tablas principales.
 
-Clientes
+### Clientes
 
 id_cliente
 
