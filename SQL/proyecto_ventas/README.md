@@ -1,17 +1,19 @@
-📊 Análisis de Ventas con PostgreSQL
+# 📊 Análisis de Ventas con PostgreSQL
 
-📌 Descripción
+## 📌 Descripción
 
 Proyecto de análisis de datos desarrollado utilizando PostgreSQL y SQL.
 
 El objetivo es analizar información de clientes y ventas para obtener información sobre el comportamiento de compra, los ingresos generados y la evolución de las ventas.
 
-🎯 Objetivos
+## 🎯 Objetivos
 
 El proyecto busca responder preguntas como:
 
 ¿Cuánto ha gastado cada cliente?
+
 ¿Qué productos generan más ingresos?
+
 ¿Qué clientes no han realizado compras?
 
 ¿Qué clientes gastan por encima del promedio?
@@ -22,7 +24,7 @@ El proyecto busca responder preguntas como:
 
 ¿Qué porcentaje aumenta o disminuye cada venta?
 
-🗂️ Datos utilizados
+## 🗂️ Datos utilizados
 
 El proyecto utiliza dos tablas principales.
 
@@ -94,7 +96,7 @@ LAG()
 
 Funciones de ventana
 
-📊 Resultados
+## 📊 Resultados
 
 1. Gasto total por cliente
 
@@ -176,7 +178,7 @@ ID	Producto	Cambio	Porcentaje
 
 El porcentaje se calculó comparando cada venta con la venta anterior.
 
-🧠 Aprendizajes
+## 🧠 Aprendizajes
 
 Este proyecto me permitió aplicar conceptos de SQL desde consultas básicas hasta técnicas de análisis más avanzadas.
 
@@ -198,11 +200,11 @@ Comparación de registros mediante LAG().
 
 Cálculo de variaciones porcentuales.
 
-📁 Archivos
+## 📁 Archivos
 
 analisis_ventas.sql — contiene las consultas SQL utilizadas para realizar el análisis.
 
-🚀 Próximos proyectos
+## 🚀 Próximos proyectos
 
 Este proyecto forma parte de mi proceso de aprendizaje en análisis de datos.
 
