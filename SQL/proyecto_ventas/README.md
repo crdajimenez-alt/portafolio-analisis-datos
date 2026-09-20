@@ -74,15 +74,12 @@ Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 
 2. Ingresos por producto
 
-Producto	Ingresos
-
-Laptop	6,000
-
-Monitor	1,500
-
-Teclado	200
-
-Mouse	200
+Producto |	Ingresos
+---------------------
+Laptop	| 6,000
+Monitor	| 1,500
+Teclado	| 200
+Mouse	| 200
 
 Laptop registra 6,000 en ingresos, mientras que Monitor registra 1,500 y Teclado y Mouse 200 cada uno.
 
@@ -90,38 +87,48 @@ Laptop registra 6,000 en ingresos, mientras que Monitor registra 1,500 y Teclado
 
 El análisis identificó dos clientes sin ventas asociadas:
 
-Cliente	Ciudad
-María	Barranquilla
-Sofía	Cali
+Cliente	| Ciudad
+--------------------
+María	| Barranquilla
+Sofía	| Cali
+
 4. Clientes por encima del gasto promedio
-Cliente	Total gastado
-Luis	4,500
-Ana	3,000
+
+Cliente	| Total gastado
+-----------------------
+Luis	| 4,500
+Ana	| 3,000
 
 Estos son los clientes cuyo gasto se encuentra por encima del promedio calculado sobre todos los clientes.
 
 5. Ranking de clientes
-Cliente	Total gastado	Ranking
-Luis	4,500	1
-Ana	3,000	2
-Carlos	400	3
-María	0	4
-Sofía	0	4
+
+Cliente	| Total gastado	| Ranking
+--------------------------------
+Luis	| 4,500	| 1
+Ana	| 3,000	| 2
+Carlos	| 400	| 3
+María	| 0	| 4
+Sofía	| 0	| 4
 
 María y Sofía comparten la posición 4 debido a que ambas tienen un gasto total de 0.
 
 6. Comparación de ventas consecutivas
-ID	Producto	Venta	Venta anterior	Cambio
-101	Laptop	3,000	—	—
-102	Mouse	200	3,000	-2,800
-103	Teclado	200	200	0
-104	Monitor	1,500	200	+1,300
-105	Laptop	3,000	1,500	+1,500
+
+ID	Producto	| Venta	| Venta anterior	| Cambio
+---------------------------------------------
+101	| Laptop	| 3,000	| —	| —
+102	| Mouse	| 200	3,000	| -2,800
+103	| Teclado	| 200	| 200	| 0
+104	| Monitor	| 1,500	| 200	| +1,300
+105	| Laptop	| 3,000	| 1,500	| +1,500
 
 Se utilizó LAG() para comparar cada venta con la venta inmediatamente anterior según id_venta.
 
 7. Clasificación de cambios
+
 ID	Producto	Cambio	Clasificación
+--------------------------------------
 101	Laptop	—	Sin comparación
 102	Mouse	-2,800	Disminución
 103	Teclado	0	Igual
@@ -131,7 +138,9 @@ ID	Producto	Cambio	Clasificación
 Se utilizó CASE para transformar los cambios numéricos en categorías interpretables.
 
 8. Porcentaje de cambio
+
 ID	Producto	Cambio	Porcentaje
+----------------------------------
 101	Laptop	—	—
 102	Mouse	-2,800	-93.33%
 103	Teclado	0	0%
@@ -146,21 +155,14 @@ Este proyecto me permitió aplicar conceptos de SQL desde consultas básicas has
 
 Entre los principales aprendizajes se encuentran:
 
-Uso de JOIN y LEFT JOIN.
-
-Agregación y agrupación de datos.
-
-Uso de CTE para estructurar consultas.
-
-Subconsultas.
-
-Clasificación de información mediante CASE.
-
-Ranking mediante funciones de ventana.
-
-Comparación de registros mediante LAG().
-
-Cálculo de variaciones porcentuales.
+- Uso de JOIN y LEFT JOIN.
+- Agregación y agrupación de datos.
+- Uso de CTE para estructurar consultas.
+- Subconsultas.
+- Clasificación de información mediante CASE.
+- Ranking mediante funciones de ventana.
+- Comparación de registros mediante LAG().
+- Cálculo de variaciones porcentuales.
 
 ## 📁 Archivos
 
@@ -172,12 +174,8 @@ Este proyecto forma parte de mi proceso de aprendizaje en análisis de datos.
 
 Próximamente incorporaré proyectos utilizando:
 
-SQL y PostgreSQL
-
-Python
-
-Pandas
-
-Visualización de datos
-
-Power BI
+- SQL y PostgreSQL
+- Python
+- Pandas
+- Visualización de datos
+- Power BI
