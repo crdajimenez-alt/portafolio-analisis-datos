@@ -64,9 +64,9 @@ El proyecto utiliza dos tablas principales.
 
 | Cliente	| Total gastado |
 |---------|---------------|    
-| Luis	   | 4,500         |  
+| Luis	  | 4,500         |  
 | Ana	    | 3,000         |
-| Carlos	 | 400           |
+| Carlos  | 400           |
 | María	  | 0             |
 | Sofía	  | 0             |
 
@@ -87,41 +87,41 @@ Laptop registra 6,000 en ingresos, mientras que Monitor registra 1,500 y Teclado
 
 El análisis identificó dos clientes sin ventas asociadas:
 
-Cliente	| Ciudad
+Cliente	|  Ciudad
 --------|------------
-María	 Barranquilla
-Sofía	 Cali
+María   	 Barranquilla
+Sofía	     Cali
 
 4. Clientes por encima del gasto promedio
 
 Cliente	| Total gastado
------------------------
-Luis	| 4,500
-Ana	| 3,000
+--------|---------------
+Luis  	| 4,500
+Ana	    | 3,000
 
 Estos son los clientes cuyo gasto se encuentra por encima del promedio calculado sobre todos los clientes.
 
 5. Ranking de clientes
 
 Cliente	| Total gastado	| Ranking
---------------------------------
-Luis	| 4,500	| 1
-Ana	| 3,000	| 2
-Carlos	| 400	| 3
-María	| 0	| 4
-Sofía	| 0	| 4
+--------|---------------|---------
+Luis  	| 4,500       	| 1
+Ana	    | 3,000       	| 2
+Carlos	| 400	          | 3
+María	  | 0	            | 4
+Sofía	  | 0	            | 4
 
 María y Sofía comparten la posición 4 debido a que ambas tienen un gasto total de 0.
 
 6. Comparación de ventas consecutivas
 
-ID	Producto	| Venta	| Venta anterior	| Cambio
----------------------------------------------
-101	| Laptop	| 3,000	| —	| —
-102	| Mouse	| 200	3,000	| -2,800
-103	| Teclado	| 200	| 200	| 0
-104	| Monitor	| 1,500	| 200	| +1,300
-105	| Laptop	| 3,000	| 1,500	| +1,500
+ID	| Producto	| Venta	  | Venta anterior	| Cambio
+----|-----------|---------|-----------------|-------
+101	|           | Laptop	| 3,000	          | — —
+102	| Mouse	    | 200	    | 3,000	          | -2,800
+103	| Teclado	  | 200	    | 200	            | 0
+104	| Monitor	  | 1,500	  | 200	            | +1,300
+105	| Laptop	  | 3,000	  | 1,500	          | +1,500
 
 Se utilizó LAG() para comparar cada venta con la venta inmediatamente anterior según id_venta.
 
