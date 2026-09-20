@@ -75,7 +75,7 @@ Luis registra el mayor gasto con 4,500, seguido por Ana con 3,000.
 2. Ingresos por producto
 
 Producto |	Ingresos
----------------------
+--------|-------------
 Laptop	| 6,000
 Monitor	| 1,500
 Teclado	| 200
@@ -127,9 +127,9 @@ Se utilizó LAG() para comparar cada venta con la venta inmediatamente anterior 
 
 7. Clasificación de cambios
 
-ID	Producto	Cambio	Clasificación
---------------------------------------
-101	Laptop	—	Sin comparación
+ID	| Producto	| Cambio	| Clasificación
+----|----------------------------------
+101	| Laptop	—	Sin comparación
 102	Mouse	-2,800	Disminución
 103	Teclado	0	Igual
 104	Monitor	+1,300	Aumento
