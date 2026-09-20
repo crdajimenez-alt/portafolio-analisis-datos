@@ -154,3 +154,41 @@ SELECT
     END AS clasificacion
 FROM cambios
 ORDER BY id_venta;
+
+-- ==========================================
+-- 8. Porcentaje de cambio entre ventas
+-- ==========================================
+
+WITH analisis_ventas AS (
+    SELECT
+        id_venta,
+        producto,
+        cantidad * precio AS total_venta,
+        LAG(cantidad * precio) OVER (
+            ORDER BY id_venta
+        ) AS venta_anterior
+    FROM ventas
+),
+
+cambios AS (
+    SELECT
+        id_venta,
+        producto,
+        total_venta,
+        venta_anterior,
+        total_venta - venta_anterior AS cambio
+    FROM analisis_ventas
+)
+
+SELECT
+    id_venta,
+    producto,
+    total_venta,
+    venta_anterior,
+    cambio,
+    ROUND(
+        (cambio::numeric / NULLIF(venta_anterior, 0)) * 100,
+        2
+    ) AS cambio_porcentaje
+FROM cambios
+ORDER BY id_venta;
