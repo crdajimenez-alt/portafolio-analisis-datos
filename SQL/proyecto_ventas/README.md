@@ -11,9 +11,7 @@ El objetivo es analizar información de clientes y ventas para obtener informaci
 El proyecto busca responder preguntas como:
 
 ¿Cuánto ha gastado cada cliente?
-
 ¿Qué productos generan más ingresos?
-
 ¿Qué clientes no han realizado compras?
 
 ¿Qué clientes gastan por encima del promedio?
