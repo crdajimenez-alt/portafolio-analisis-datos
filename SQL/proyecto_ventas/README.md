@@ -84,7 +84,7 @@ Mouse	   | 200
 
 Laptop registra 6,000 en ingresos, mientras que Monitor registra 1,500 y Teclado y Mouse 200 cada uno.
 
-### 3. ¿Qué clientes no han realizado compras?
+### ¿Qué clientes no han realizado compras?
 
 El análisis identificó dos clientes sin ventas asociadas:
 
@@ -93,7 +93,7 @@ Cliente	|  Ciudad
 María   	 Barranquilla
 Sofía	     Cali
 
-### 4. ¿Qué clientes gastan por encima del promedio?
+### ¿Qué clientes gastan por encima del promedio?
 
 Cliente	| Total gastado
 --------|---------------
@@ -102,7 +102,7 @@ Ana	    | 3,000
 
 Estos son los clientes cuyo gasto se encuentra por encima del promedio calculado sobre todos los clientes.
 
-### 5. ¿Cuál es el ranking de clientes según su gasto?
+### ¿Cuál es el ranking de clientes según su gasto?
 
 Cliente	| Total gastado	| Ranking
 --------|---------------|---------
@@ -114,7 +114,7 @@ Sofía	  | 0	            | 4
 
 María y Sofía comparten la posición 4 debido a que ambas tienen un gasto total de 0.
 
-### 6. ¿Cómo cambia cada venta respecto a la anterior?
+### ¿Cómo cambia cada venta respecto a la anterior?
 
 ID	| Producto	| Venta	  | Venta anterior	| Cambio
 ----|-----------|---------|-----------------|-------
@@ -138,7 +138,7 @@ ID	| Producto	| Cambio	| Clasificación
 
 Se utilizó CASE para transformar los cambios numéricos en categorías interpretables.
 
-### 8. ¿Qué porcentaje aumenta o disminuye cada venta?
+### ¿Qué porcentaje aumenta o disminuye cada venta?
 
 ID	| Producto	| Cambio	| Porcentaje
 ----|-----------|---------|------------
