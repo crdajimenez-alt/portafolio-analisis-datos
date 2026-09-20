@@ -8,7 +8,8 @@ El objetivo es analizar información de clientes y ventas para obtener informaci
 ## 🎯 Objetivos
 El proyecto busca responder preguntas como:
 
-- ¿Cuánto ha gastado cada cliente?
+[Ir a la Pregunta 1](#pregunta-1) - ¿Cuánto ha gastado cada cliente?
+
 - ¿Qué productos generan más ingresos?
 - ¿Qué clientes no han realizado compras?
 - ¿Qué clientes gastan por encima del promedio?
@@ -60,7 +61,7 @@ El proyecto utiliza dos tablas principales.
 
 ## 📊 Resultados
 
-### 1. Gasto total por cliente
+## Pregunta 1 1. Gasto total por cliente
 
 | Cliente	| Total gastado |
 |---------|---------------|    
