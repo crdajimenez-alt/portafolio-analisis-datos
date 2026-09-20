@@ -100,7 +100,7 @@ Funciones de ventana
 
 1. Gasto total por cliente
 
----------------------------
+
 | Cliente	| Total gastado |
 |---------|---------------|
 | Luis	  | 4,500         |
