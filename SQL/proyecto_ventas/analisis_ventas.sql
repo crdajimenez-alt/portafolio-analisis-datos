@@ -14,3 +14,14 @@ LEFT JOIN ventas AS v
     ON c.id_cliente = v.id_cliente
 GROUP BY c.nombre
 ORDER BY total_gastado DESC;
+
+-- ==========================================
+-- 2. Ingresos generados por producto
+-- ==========================================
+
+SELECT
+    producto,
+    SUM(cantidad * precio) AS ingresos_totales
+FROM ventas
+GROUP BY producto
+ORDER BY ingresos_totales DESC;
