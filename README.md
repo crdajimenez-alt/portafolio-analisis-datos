@@ -46,7 +46,6 @@ Análisis exploratorio de datos
 🎯 Objetivo profesional
 
 -------------------------------------------------------------------------------------------------
-Descripción de mi proyecto 
 
 ## Visualización de datos
 
