@@ -45,4 +45,15 @@ Power BI
 Análisis exploratorio de datos
 🎯 Objetivo profesional
 
+-------------------------------------------------------------------------------------------------
+Descripción de mi proyecto 
+
+## Visualización de datos
+
+### Ingresos por producto
+
+Esta visualización muestra los ingresos generados por cada producto a partir de los datos analizados con SQL y Python.
+
+![Ingresos por producto](ingresos_por_producto.png)
+
 Construir una sólida base en análisis de datos mediante proyectos prácticos y desarrollar un portafolio que demuestre mis habilidades técnicas y mi capacidad para resolver problemas utilizando datos.
